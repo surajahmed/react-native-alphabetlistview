@@ -2,7 +2,6 @@
 
 import React, {
   Component,
-  PropTypes
 } from 'react';
 import ReactNative, {
   StyleSheet,
@@ -10,6 +9,7 @@ import ReactNative, {
   Text,
   NativeModules
 } from 'react-native';
+import PropTypes from 'prop-types';
 
 const { UIManager } = NativeModules;
 
